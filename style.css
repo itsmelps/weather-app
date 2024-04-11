@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #151e2c;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    height: 43rem;
+    margin: 2.5rem auto 0;
+    margin-bottom: 2rem;
+    padding: 3rem 2rem;
+    border-radius: 2rem;
+    /* background:linear-gradient(135deg,#f5e6ad,#f13c77); */
+    text-align: center;
+}
+.card_bg{
+    background:linear-gradient(135deg,#f5e6ad,#f13c77);
+}
+.new_card_bg{
+    background:linear-gradient( #4b749f, #1d3a53);
+}
+.search{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.search input{
+    color: #181818;
+    height: 3.5rem;
+    border: none;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    font-size: 17px;
+    flex: 0.9;
+}
+.search button{
+    background-color: white;
+    border: none;
+    height: 3.4rem;
+    width: 3.4rem;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+.weather-img{
+    margin-left: -0.5rem;
+}
+.temp{
+    text-align: center;
+    margin-top: -1.5rem;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+}
+#num{
+    font-size: 120px;
+    font-weight: 600;
+}
+#symbol{
+    padding-top: 1.8rem;
+    font-size: 50px;
+    font-weight: 500;
+}
+.city{
+    text-align: center;
+    font-size: 30px;
+    margin-left: -1.2rem;
+    font-weight: 500;
+}
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+.humidity{
+    display: flex;
+    margin-left: 0.5rem;
+}
+.wind{
+    display: flex;
+    margin-right: 0.3rem;  
+}
+.humid-text{
+    padding-left: 0.5rem;
+}
+#humid-pic{
+    height: 3rem;
+    width: 3.6rem;
+    margin-top: 0.38rem;
+}
+.wind-text{
+    padding-left: 0.5rem;
+}
+#wind-pic{
+    height: 3.2rem;
+    width: 3.2rem;
+    margin-top: 0.4rem;
+    background-color: #6ac3fb;
+}
+.text1{
+    font-size: 26px;
+    font-weight: 550;
+}
+.text2{
+    font-size: 18px;
+}
+.hide{
+    display: none;
+}
+#invalid_img{
+    margin-left: 0rem;
+    margin-top: 1rem;
+    height: 30.6rem;
+    width: 80%;
+}
+.result{
+    text-align: center;
+    font-size: 25px;
+    margin-left: -1.2rem;
+    font-weight: 500;
+}
+.icon{
+    margin-top: 27rem;
+    font-size: 17px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+ 
+@media(max-width:480px){
+    .card{
+        width: 95%;
+    }
+    .search{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .search input{
+        color: #181818;
+        height: 3.3rem;
+        border: none;
+        border-radius: 2rem;
+        font-size: 15px;
+        flex: 0.7;
+    }
+    .search button{
+        background-color: white;
+        border: none;
+        height: 3.2rem;
+        width: 3.2rem;
+        border-radius: 50%;
+        margin-left: 1rem;
+        cursor: pointer;
+    }
+    #humid-pic{
+        height: 2.8rem;
+        width: 2.9rem;
+        margin-top: 0.38rem;
+    }
+    #wind-pic{
+        height: 2.5rem;
+        width: 2.5rem;
+        margin-top: 0.4rem;
+    }
+    .humidity{
+        display: flex;
+        margin-left: -1rem;
+    }
+    .wind{
+        display: flex;
+        margin-right: -1rem;  
+    }
+    .text1{
+        font-size: 25px;
+        font-weight: 550;
+    }
+    .text2{
+        font-size: 16px;
+    }
+    .humid-text{
+        padding-left: 0.2rem;
+    }
+    #invalid_img{
+        margin-left: 0rem;
+        margin-top: 2rem;
+        height: 27rem;
+        width: 100%;
+    }
+
+}
